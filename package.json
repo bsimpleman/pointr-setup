@@ -1,0 +1,24 @@
+{
+  "name": "pointr-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ../pointr-setup/server/app.js",
+    "dev": "nodemon ../pointr-setup/server/app.js",
+    "client": "npm start client",
+    "all": "npm-run-all --parallel client dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mongodb": "^4.4.0",
+    "nodemon": "^2.0.15"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}
